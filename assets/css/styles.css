@@ -402,6 +402,10 @@ body.dark-theme {
   font-size: var(--smaller-font-size);
 }
 
+.skills__area_soft {
+  padding-left: 13.5%;
+}
+
 /* Hide and show projects & skills */
 .filters [data-content] {
   display: none;
