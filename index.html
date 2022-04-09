@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/isa-favicon3.png" type="image/x-icon">
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Hello there!, It's me ISA</title>
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="profile container">
+        <!-- Theme button -->
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+        <div class="profile__container grid">
+            <div class="profile__data">
+                <div class="profile__border">
+                    <div class="profile__perfil">
+                        <!-- Insert your image, according to the example size of the portfolio -->
+                        <img src="assets/img/isa-8.png" alt="">
+                    </div>
+                </div>
+
+                <h2 class="profile__name">ISA PHUYUTHANON</h2>
+                <h3 class="profile__profession">Software Developer</h3>
+
+                <ul class="profile__social">
+                    <a href="https://www.linkedin.com/in/isa-phu/" target="_blank" class="profile__social-link">
+                        <i class="ri-linkedin-box-line"></i>
+                    </a>
+                    <a href="https://github.com/isaphu" target="_blank" class="profile__social-link">
+                        <i class="ri-github-line"></i>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="profile__info grid">
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">Passionate in <br>software engineer</h3>
+                    <p class="profile__info-description">
+                        Would love to work in <br>
+                        Banking | Aviation |
+                    </p>
+                </div>
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">In permanent <br>BETA:</h3>
+                    <p class="profile__info-description">
+                        learning, <br>improving, evolving...
+                    </p>
+                </div>
+            </div>
+
+            <div class="profile__buttons">
+                <!-- Insert your CV -->
+                <a download="" href="assets/pdf/isa-phu-cv.pdf" class="button">
+                    Download CV <i class="ri-download-line"></i>
+                </a>
+
+                <div class="profile__buttons-small">
+                    <!-- Insert a real number plus country code -->
+                    <a href="https://www.upwork.com/freelancers/~01c3e07318397a9f37/" target="_blank"
+                        class="button button__small button__gray">
+                        <!-- <i class="ri-whatsapp-line"></i> -->
+                        <span class="iconify" data-icon="logos:upwork"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <section class="filters container">
+            <!--=============== FILTERS TABS ===============-->
+            <ul class="filters__content">
+                <button class="filters__button filter-tab-active" data-target="#projects">
+                    Projects
+                </button>
+                <button class="filters__button" data-target="#skills">
+                    Skills
+                </button>
+            </ul>
+
+            <div class="filters__sections">
+                <!--=============== PROJECTS ===============-->
+                <div class="projects__content grid filters__active" data-content id="projects">
+                    <article class="projects__card">
+                        <!-- Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
+                        <img src="assets/img/Bangkok-post.gif" alt="" class="projects__img">
+
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Web</span>
+                                <h3 class="projects__title">Bangkok Post (HTML + CSS practice)</h3>
+                                <a href="https://wd-final-submission-b3i39kf9p-isaphu.vercel.app/"
+                                    class="projects__button button button__small" target="_Blank">
+                                    <span class="iconify" data-icon="carbon:view-filled"></span>
+                                </a>
+                                <a href="https://github.com/isaphu/bangkok-post-news-website"
+                                    class="projects__button button button__small" target="_Blank">
+                                    <span class="iconify" data-icon="akar-icons:github-fill"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/music-visualizer.gif" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Web</span>
+                                <h3 class="projects__title">Music Visualizer (p5.js)</h3>
+                                <a href="https://music-visualizer.vercel.app/"
+                                    class="projects__button button button__small" target="_Blank">
+                                    <span class="iconify" data-icon="carbon:view-filled"></span>
+                                </a>
+                                <a href="https://github.com/isaphu/music-visualizer"
+                                    class="projects__button button button__small" target="_Blank">
+                                    <span class="iconify" data-icon="akar-icons:github-fill"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/infinity-tracker.gif" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Web</span>
+                                <h3 class="projects__title">Infinity tracker (React - CRUD) [WIP]</h3>
+                                <a href="#" class="projects__button button button__small" target="_Blank">
+                                    <span class="iconify" data-icon="carbon:view-filled"></span>
+                                </a>
+                                <a href="https://github.com/isaphu/project-infinity-tracker"
+                                    class="projects__button button button__small" target="_Blank">
+                                    <span class="iconify" data-icon="akar-icons:github-fill"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/prediction-no-show.gif" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Data Analysis + Visualize (Python)</span>
+                                <h3 class="projects__title">Predicting no-show appoinments</h3>
+                                <a href="https://github.com/isaphu/Predicting-no-show-/blob/master/noshow.ipynb"
+                                    class="projects__button button button__small" target="_Blank">
+                                    <span class="iconify" data-icon="akar-icons:github-fill"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/we-rate-dog.gif" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Data Wrangling + Visualize (Python)</span>
+                                <h3 class="projects__title">WeRateDog's Twitter Account Data Investigation</h3>
+                                <a href="https://github.com/isaphu/Data-Wrangling-WeRateDog/blob/master/wrangle_act.ipynb"
+                                    class="projects__button button button__small" target="_Blank">
+                                    <span class="iconify" data-icon="akar-icons:github-fill"></span>
+                                </a>
+                            </div>
+                        </div>
+
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/ford-bike-EDA.gif" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Exploratory Data Analysis</span>
+                                <h3 class="projects__title">2019 Ford Gobike's Bay Wheel Data Visualization</h3>
+                                <a href="https://github.com/isaphu/Data-Visualization-of-Ford-Gobike-2019/blob/master/2019_Ford_Gobike_Bike_Wheel_Data_Visualization.ipynb"
+                                    class="projects__button button button__small" target="_Blank">
+                                    <span class="iconify" data-icon="akar-icons:github-fill"></span>
+                                </a>
+                            </div>
+                        </div>
+
+                    </article>
+                </div>
+
+                <!--=============== SKILLS ===============-->
+                <div class="skills__content grid" data-content id="skills">
+                    <div class="skills__area">
+                        <h3 class="skills__title">Frontend Developer</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">JavaScript</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">React</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Bootstrap</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Git</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__area">
+                        <h3 class="skills__title">Backend Developer</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">MySQL</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">MangoDB</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Python</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Node Js</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__area">
+                        <h3 class="skills__title">Language skills</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Thai</h3>
+                                        <span class="skills__level">Native</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">English</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">French</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__area">
+                        <h3 class="skills__title">Soft skills</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Communicate</h3>
+
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Project management</h3>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Team work</h3>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer container">
+        <span class="footer__copy">
+            Made with <span class="iconify" data-icon="ant-design:heart-filled"></span> by ISA.
+        </span>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
